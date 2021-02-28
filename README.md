@@ -19,6 +19,10 @@ run `wiki` at port `3000` on localhost
 
 run `sudo caddy start`
 
+### Stop
+
+run `sudo caddy stop`
+
 ## Production Run and Setup
 
 ### Setup
@@ -31,6 +35,16 @@ run `hub` at port `5000` on localhost
 run `wiki` at port `3000` on localhost
 
 run `sudo caddy start`
+
+### Reload
+
+caddy lets you hotswap the server so no down time
+
+run `sudo caddy reload`
+
+### Stop
+
+run `sudo caddy stop`
 
 ## Todo
 
