@@ -1,6 +1,9 @@
 # site name for ssl cert
-#css.uwindsor.ca
-localhost
+# start at port 8000
+css.uwindsor.ca
+
+# when running in development, uncomment the next line and comment `css.uwindsor.ca`
+#localhost
 
 # route to reverse proxy to docusaurus(wiki)
 # strip /wiki from the uri and send to docusaurus
@@ -8,7 +11,7 @@ route /wiki* {
       reverse_proxy localhost:3000
 }
 
-# route to reverse proxy to rails(hub-core)
+# route to reverse proxy to rails(hub)
 route /* {
       reverse_proxy localhost:5000
 }
