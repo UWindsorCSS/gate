@@ -1,5 +1,5 @@
-[submodule "hub-core"]
-	path = hub-core
+[submodule "hub"]
+	path = hub
 	url = git@github.com:UWindsorCSS/hub.git
 [submodule "wiki"]
 	path = wiki
