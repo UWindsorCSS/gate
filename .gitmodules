@@ -2,5 +2,5 @@
 	path = wiki
 	url = git@github.com:UWindsorCSS/Wiki.git
 [submodule "hub-core"]
-	path = hub-core
+	path = hub
 	url = git@github.com:UWindsorCSS/hub.git
